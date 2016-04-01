@@ -20,3 +20,4 @@ Public methods
 - **getBrandName(number)**: returns brand name
 - **checkByBrand(code, number)**: returns boolean
 - **getBrandNameByCode(code)** : returns brand name
+- **luhnCalculation(number)**: returns int. *Note* if number is valid credit card, it will return an integer divisible by 10
